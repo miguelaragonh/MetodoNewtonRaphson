@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "function-plot": "^1.23.2",
+    "mathjs": "^11.8.0",
+    "nerdamer": "^1.1.13"
+  }
+}

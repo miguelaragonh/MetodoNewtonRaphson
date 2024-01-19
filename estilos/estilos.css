@@ -1,0 +1,106 @@
+body {
+  font-family: 'Kanit', sans-serif;
+}
+
+header {
+    background-color: black;
+}
+
+.nav-link {
+    transition: background-color 0.4s, color 0.4s; 
+}
+
+.nav-link:hover {
+    padding: 5px 10px; 
+    background-color: white; 
+    color: black; 
+    border-radius: 2px;
+}
+
+.carousel-title {
+  color: white;
+}
+
+.carousel-item img {
+  filter: brightness(0.6);
+}
+
+.informacion {
+  text-align: justify;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+}
+
+.table{
+  background-color: black;
+  color: white;
+}
+
+.table tr th {
+  font-weight: normal;
+}
+
+.resaltada {
+  background-color: green;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  border: 1px solid #000;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.info-box {
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  background: linear-gradient(0deg, #000000, #000000); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  border-radius: 10px; 
+}
+
+.info-box:hover {
+  transform: scale(1.05);
+}
+
+.info-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff; 
+}
+
+.info-content {
+  line-height: 1.5;
+  color: #fff; 
+}
+
+.info-more {
+  margin-top: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.info-more:hover {
+  color: #ffffff;
+}
+
+.collapse {
+  color: #ffffff;
+}
